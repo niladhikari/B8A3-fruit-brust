@@ -1,0 +1,18 @@
+*{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lato', sans-serif;;
+}
+.search-bar {
+    position: relative;
+    /* display: inline-block; */
+  }
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+  }
+
+
+  
+  

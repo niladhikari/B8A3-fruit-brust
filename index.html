@@ -30,14 +30,14 @@
 <body>
     <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24  my-5">
         <!-- navigation section start -->
-        <nav class="navbar md:bg-[#F85559] mb-16 md:rounded-[600px] md:text-white">
+        <nav class="navbar flex flex-row-reverse gap-28 p-1 md:p-0 md:gap-0 md:flex-row md:bg-[#F85559] mb-24 lg:rounded-[600px] md:text-white">
             <div class="navbar-start discription">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <i class="fa-solid fa-bars text-[30px]"></i>
                     </label>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        class="menu menu-sm dropdown-content font-bold md:text-2xl text-black ">
                         <li><a>Home</a></li>
                         <li><a>About US</a></li>
                         <li><a>Shop</a></li>
@@ -45,7 +45,7 @@
                     </ul>
 
                 </div>
-                <div class="lg:navbar-center hidden lg:flex">
+                <div class="lg:navbar-end hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li><a>About US</a></li>
@@ -57,12 +57,12 @@
             </div>
             <div class="font-bold navbar-center flex  gap-4">
                 <img src="./images/logo.png" alt="">
-                <a class="text-2xl lg:text-4xl">Fruit Burs</a>
+                <a class="text-2xl lg:text-4xl md:text-3xl">Fruit Burs</a>
             </div>
 
-            <div class="search-bar text-black navbar-end hidden md:flex">
+            <div class="search-bar text-black navbar-end hidden md:flex md:pr-1 lg:p-0">
                 <input type="text" placeholder="Search here"
-                    class="input input-bordered rounded-[600px] w-24 md:w-auto">
+                    class="input input-bordered rounded-[600px] w-[150px] lg:w-auto">
                 <span class="search-icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </span>
@@ -190,7 +190,7 @@
         </section>
 
         <!-- Meet the team section -->
-        <section class="mb-36 mt-52">
+        <section class="mb-36 lg:mt-52">
             <div class="hero gri"
                 style="background-image: url('./images/team.png'); background-position: center;background-size: cover;background-repeat: no-repeat;">
                 <div class="hero-overlay bg-opacity-80"></div>

@@ -8,6 +8,7 @@
   }
   .search-icon {
     position: absolute;
+    padding-right: 8px;
     top: 50%;
     right: 10px; 
     transform: translateY(-50%);

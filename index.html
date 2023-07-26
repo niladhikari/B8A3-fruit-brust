@@ -29,10 +29,27 @@
 
 <body>
     <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24  my-1 ">
-        <nav
-            class="navbar flex flex-row-reverse gap-[110px] p-1 md:p-0 md:gap-0 md:flex-row md:bg-[#F85559] mb-24  lg:rounded-[600px] md:text-white">
+        <nav class="navbar flex flex-row-reverse md:flex-row md:bg-[#F85559] mb-24  lg:rounded-[600px] md:text-white">
             <div class="navbar-start discription">
-                <div class="dropdown">
+             
+                <div class="lg:navbar-end hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About US</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="flex justify-between items-center gap-24">
+                <div class="font-bold navbar-center flex gap-2  md:gap-4">
+                    <div class="">
+                        <img class="w-[45px]  md:pl-0" src="./images/logo.png" alt="">
+                    </div>
+                    <a class="text-2xl lg:text-4xl md:text-3xl">Fruit Burs</a>
+                </div>
+                <div class="dropdown ">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <i class="fa-solid fa-bars text-[30px]"></i>
                     </label>
@@ -44,19 +61,6 @@
                     </ul>
 
                 </div>
-                <div class="lg:navbar-end hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>About US</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="font-bold navbar-center flex  gap-4">
-                <img class="w-[45px]" src="./images/logo.png" alt="">
-                <a class="text-2xl lg:text-4xl md:text-3xl">Fruit Burs</a>
             </div>
 
             <div class="search-bar text-black navbar-end hidden md:flex md:pr-2 lg:p-2">
